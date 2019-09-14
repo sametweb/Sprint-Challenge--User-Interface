@@ -348,6 +348,48 @@ footer nav a {
   color: #000;
 }
 
+.contact {
+  margin-bottom: 50px;
+}
+
+.contact .contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.contact .contact-form form label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 85%;
+  margin: 10px 0 3px 0;
+}
+
+.contact .contact-form form input {
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+  border: 1px solid #d1d1d2;
+}
+
+.contact .contact-form form textarea {
+  height: 120px;
+  border: 1px solid #d1d1d2;
+  border-radius: 10px;
+}
+
+.contact .contact-form form button {
+  line-height: 30px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  border: 1px solid #d1d1d2;
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 1.1em;
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     width: 100%;
@@ -398,6 +440,11 @@ footer nav a {
   .about-page .box a {
     display: block;
     width: 100%;
+  }
+
+  .contact .contact-form form {
+    width: 100%;
+    padding: 2%;
   }
 
   footer nav {
