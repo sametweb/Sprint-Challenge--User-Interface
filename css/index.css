@@ -298,3 +298,28 @@ footer nav a {
 .dodgerblue {
   background-color: dodgerblue !important;
 }
+
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-page .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 370px;
+  border-bottom: 1px dashed #000;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.about-page .box:first-child,
+.about-page .box:last-child {
+  width: 100%;
+}
+
+.about-page .box:last-child {
+  border-bottom: 0;
+}
