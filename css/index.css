@@ -347,3 +347,62 @@ footer nav a {
   text-decoration: none;
   color: #000;
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 1%;
+  }
+
+  .top-content .text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .middle-content .boxes .box {
+    width: 45%;
+  }
+
+  .bottom-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .bottom-content .text-container {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .main-nav .logo {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .about-page .box {
+    align-items: stretch;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .about-page .box img {
+    width: 100%;
+  }
+
+  .about-page .box a {
+    display: block;
+    width: 100%;
+  }
+
+  footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
