@@ -258,3 +258,43 @@ footer nav a {
 .headline-img {
   margin-bottom: 20px;
 }
+
+.teal {
+  background-color: teal !important;
+}
+
+.gold {
+  background-color: gold !important;
+}
+
+.cadetblue {
+  background-color: cadetblue !important;
+}
+
+.coral {
+  background-color: coral !important;
+}
+
+.crimson {
+  background-color: crimson !important;
+}
+
+.forestgreen {
+  background-color: forestgreen !important;
+}
+
+.darkorchid {
+  background-color: darkorchid !important;
+}
+
+.hotpink {
+  background-color: hotpink !important;
+}
+
+.indigo {
+  background-color: indigo !important;
+}
+
+.dodgerblue {
+  background-color: dodgerblue !important;
+}
