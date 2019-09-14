@@ -356,9 +356,12 @@ footer nav a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: stretch;
   margin: 0 auto;
   width: 70%;
+  background: #e1e1e2;
+  padding: 20px;
+  border: 1px solid #d1d1d2;
 }
 
 .contact .contact-form form label {
